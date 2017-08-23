@@ -1,0 +1,176 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.jumbotron {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Styling for the website header */
+header {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  z-index: 1;
+  top: 0;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+header nav {
+  text-align: right;
+  flex-grow: 1
+}
+
+header span {
+  padding: 10px 20px;
+}
+
+header a {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+}
+
+/* Styling for the Jumbotron (Not programmed with BootStrap) */
+
+#about {
+  background-image: url(../../resources/images/img-mission-background.jpg);
+  background-size: cover;
+  margin-top: 60px;
+  margin-bottom: 70px;
+  height: 700px;
+  width: 1200px;
+}
+
+.mission {
+  width: 1200px;
+  background-color: black;
+  margin: 0;
+}
+
+.mission h2,
+h4 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+/* Styling for Tea of the Month Section */
+
+.teabox {
+  width: 1000px;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.teabox h2,
+h4 {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.teazone {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Styling for all the pictures in the Tea of the Month Section */
+
+.teabag {
+  display: flex;
+  flex-direction: column;
+}
+
+.teabag img {
+  height: 200px;
+  width: 300px;
+  margin: 10px 10px;
+  padding-top: 10px;
+}
+
+/* Styling for the Location Section */
+
+#spot {
+  background-image: url(../../resources/images/img-locations-background.jpg);
+  background-size: cover;
+  height: 500px;
+  width: 1200px;
+}
+
+#spot h2 {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.locationbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Styling for the indivdual location boxes */
+
+.spot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  opacity: 1;
+  width: 300px;
+  margin: 20px;
+}
+
+.spot span {
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+/* Styling for the Contact box */
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 200px;
+}
+
+.contact h2 {
+  margin: 0;
+  padding: 10px 0 30px 0;
+}
+
+.contact h5 {
+  margin: 0;
+  padding: 20px 0;
+}
+
+/* Styling for the footer*/
+
+footer {
+  width: 100%;
+  text-align: left;
+  padding: 20px;
+}
